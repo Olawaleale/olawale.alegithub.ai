@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ale Olawale Peter</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload Blog2">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<a href="index.html" class="image featured"><img src="images/profilepicslinkedin3.png" alt="" width="80px" height="80px"></a>
+							</div>
+
+							<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="Portfolio.html">Back</a></li>
+									
+								</ul>
+								
+							</nav>
+					</header>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+								<article>
+
+									<h2>RENFORTE FINANCE</h2>
+
+									<p>Renforte Finance is a dynamic financial technology company founded with a vision to empower farmers and ensure the availability of food throughout the year.</p>
+
+									<iframe src="RENFORTE FINANCE PRD.pdf" frameborder="0" width="100%" height="975px"></iframe>
+                                    <br>
+									<button class="download-btn" onclick="showEmailInput()">Download</button>
+									<div id="emailInput" style="display: none;">
+										<label for="email">Enter your email address:</label>
+										<input type="email" id="email" required>
+										<button onclick="downloadFile()">Submit</button>
+									</div>
+
+									<script>
+										function showEmailInput() {
+											document.getElementById("emailInput").style.display = "block";
+										}
+									
+										function downloadFile() {
+											const email = document.getElementById("email").value;
+											// Replace "YOUR_DOWNLOAD_ENDPOINT" with the actual server endpoint to handle the download and email submission
+											const downloadEndpoint = "YOUR_DOWNLOAD_ENDPOINT";
+									
+											// You can use fetch or any other method to send the email and download request to the server
+											// For this example, I'm using a simple alert to show the email and download message
+											if (email) {
+												alert("Thank you! We have sent a download link to your email: " + email);
+												// Hide the email input after submission
+												document.getElementById("emailInput").style.display = "none";
+											} else {
+												alert("Please enter a valid email address before downloading.");
+											}
+										}
+									</script>
+									<br>
+									<br>
+									<p>Unlike traditional banks, Renforte Finance focuses on delivering specialized financial solutions tailored to the unique needs of farmers. With a proven track record and a promising market, Renforte Finance is poised to revolutionize the agricultural finance sector.
+										The goal is to provide farmers with quick and flexible access to funds, while maintaining competitive interest rates and repayment terms.
+										The Product Requirement Document and a website demo was prepared for provide insight on the solution.</p>
+										<a href="https://renfortefinance.preview.softr.app/?t=1688259312409" style="color: red;">https://renfortefinance.preview.softr.app/?t=1688259312409</a>
+									<p><b>(URL only opens on web browser)</b></p>
+								</article>
+
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+			<div id="footer-wrapper">
+				
+					
+				<!-- Contact -->
+					<section class="widget contact last">
+						<h3>Get in Touch</h3>
+						<ul>
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.behance.net/your-behance-profile-url" class="icon brands fa-behance" target="_blank"><span class="label">Behance</span></a></li>
+							<li><a href="https://www.linkedin.com/your-linkedin-profile-url" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+
+						</ul>
+						<a href="aleolawalepeters@gmail.com" style="color: red;">aleolawalepeters@gmail.com</a>
+
+						<p>13A Bemil Office Street, Ojodu Berger Lagos<br />
+						Nigeria<br />
+						(+234) 8167570901</p>
+					</section>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div id="copyright">
+						<ul class="menu">
+							<li>&copy; Olawale Ale 2023</li><li>All rights reserved</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+</div>
+
+<!-- Scripts -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

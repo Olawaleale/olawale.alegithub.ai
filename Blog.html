@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ale Olawale Peter</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+			.download-btn {
+				padding: 10px 20px;
+				background-color: #0487E2;
+				color: white;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			.download-btn:hover  {
+            background-color: red; 
+            }
+			
+			
+		</style>
+		
+	</head>
+	<body class="is-preload Blog">
+		<div id="page-wrapper">
+			
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<a href="index.html" class="image featured"><img src="images/profilepicslinkedin3.png" alt="" width="80px" height="80px"></a>
+							</div>
+
+							<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="Portfolio.html">Back</a></li>
+									
+								</ul>
+								
+							</nav>
+					</header>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+								<article>
+
+									<h2>Pay_Escrow_Case_Study</h2>
+									<p><b>Solution</b></p>
+
+									<p>I developed a 12-month product roadmap for Pay Escrow, which enables an independent third party to temporarily hold funds until certain transaction or value obligations are met by the buyer or seller. This solution will be implemented across various countries in Africa, where the sellers are referred to as merchants, and the buyers are customers.</p>
+									<p><b>The following were identified:</b><p>
+									<ol>
+										<li>Product Vision Board</li>
+										<li>A 12-month product roadmap</li>
+										<li>Metrics to track</li>
+										<li>Revenue model</li>
+										<li>Go-to-market strategy</li>
+										<li>Teams required and specific responsibilities highlighted</li>
+									</ol>
+
+									<iframe src="PAY_ESCROW_SERVICE.pdf" frameborder="0" width="100%" height="975pxpx"></iframe>
+									<br>
+									<button class="download-btn" onclick="showEmailInput()">Download</button>
+									<div id="emailInput" style="display: none;">
+										<label for="email">Enter your email address:</label>
+										<input type="email" id="email" required>
+										<button onclick="downloadFile()">Submit</button>
+									</div>
+
+									<script>
+										function showEmailInput() {
+											document.getElementById("emailInput").style.display = "block";
+										}
+									
+										function downloadFile() {
+											const email = document.getElementById("email").value;
+											// Replace "YOUR_DOWNLOAD_ENDPOINT" with the actual server endpoint to handle the download and email submission
+											const downloadEndpoint = "YOUR_DOWNLOAD_ENDPOINT";
+									
+											// You can use fetch or any other method to send the email and download request to the server
+											// For this example, I'm using a simple alert to show the email and download message
+											if (email) {
+												alert("Thank you! We have sent a download link to your email: " + email);
+												// Hide the email input after submission
+												document.getElementById("emailInput").style.display = "none";
+											} else {
+												alert("Please enter a valid email address before downloading.");
+											}
+										}
+									</script>
+
+									<br>
+									<br>
+									<br>
+
+
+									<h3>QUESTION</h3>
+									<p>As a newly appointed Product Manager at X organization, my task is to develop a solution called Pay Escrow, which enables an independent third party to temporarily hold funds until certain transaction or value obligations are met by the buyer or seller. This solution will be implemented across various countries in Africa, where the sellers are referred to as merchants, and the buyers are customers.<br><br>
+
+										In traditional e-commerce scenarios, merchants typically receive their settlements on the next business day (T+1). However, with Pay Escrow, merchants will only receive their settlements the day after the customer confirms receipt of the ordered item(s) by providing a specific code indicating they have received the expected value.<br><br>
+										
+										In cases where the customer does not receive the expected value within the agreed-upon delivery period, the customer will automatically receive a refund back to their account.<br>
+										
+										Now, considering a 12-month timeframe, how would you suggest approaching the development of a product roadmap for building this service?.</p>
+
+										<p><b>Expectations</b>
+											<ol>
+												<li>Build a 12-month product roadmap</li>
+												<li>Choose the metrics you would track and why</li>
+												<li>Come up with a revenue model for this product</li>
+												<li>Come up with a go-to-market strategy</li>
+												<li>What teams would you require to support the product and what specific responsibilities would you require from them? Your presentation slides should not be more than 10 slides.</li>
+											</ol>
+										</p>
+								</article>
+
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+			<div id="footer-wrapper">
+				
+					
+				<!-- Contact -->
+					<section class="widget contact last">
+						<h3>Get in Touch</h3>
+						<ul>
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.behance.net/your-behance-profile-url" class="icon brands fa-behance" target="_blank"><span class="label">Behance</span></a></li>
+							<li><a href="https://www.linkedin.com/your-linkedin-profile-url" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+
+						</ul>
+						<a href="aleolawalepeters@gmail.com" style="color: red;">aleolawalepeters@gmail.com</a>
+
+						<p>13A Bemil Office Street, Ojodu Berger Lagos<br />
+						Nigeria<br />
+						(+234) 8167570901</p>
+					</section>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div id="copyright">
+						<ul class="menu">
+							<li>&copy; Olawale Ale 2023</li><li>All rights reserved</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+</div>
+
+<!-- Scripts -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
